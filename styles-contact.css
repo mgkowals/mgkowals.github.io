@@ -60,61 +60,66 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg) 
+  background: url(images/bwbg.jpg) 
       center center fixed no-repeat;
     background-size: cover;
-	
+	font-family: "helvetica", sans-serif;
+        /* Find a font family */
 	
 }
 
 .center {
-    width: 800px;
-	padding: 2%;
+    width: 50%; /* added this to make div responsive to browser window size */
+	padding: 1%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(256, 256, 256, .25); /*this uses opacity of 25% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	/* removed -- border: 4px dashed white;
+    */
 }
 
    
 #logo {
+    width: 80%; /* added this to make logo responsive to browser size */
     margin-bottom: 16px;
-	border: 3px dashed red;
 	text-align: center;
+    /* removed -- border: 3px dashed red;
+    */
 }
 
 h1 {
-	font-family: fino-sans, sans-serif;
+	font-family: optima;
     font-weight: 400;
     font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #e6ccff;
 }
 
-h2 {
+/* removed -- h2 {
     font-family: garamond, serif;
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
-}
+} */
 
 p {
-	font-family: garamond, serif;		;
-	font-size: 1.2em;
+	font-family: optima;		;
+	font-size: 1em;
     line-height: 1.6;
     color: #fff;
 }
     
 nav{
-    font-family: garamond;
+    font-family: optima;
     font-size: 1.2em;
     width: 400px;
     margin: 0 auto;
-    border: dashed turquoise;
+    /* removed -- border: dashed turquoise; 
     border-width: 3px 0;
+    */
     text-align: center;
     margin-top: 2em;
     }
@@ -128,11 +133,11 @@ nav a{
     padding: 10px;
     }
 a{
-    color:#444;
+    color:#e6ccff;
     text-decoration: none;
     font-weight: bold;
     }
 a:hover{
     color:black;
-    background:pink;
+    background:white;
     }
